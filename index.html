@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anuradha Gudagi — Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <span class="nav-logo">AG.</span>
+  <div class="nav-links">
+    <a href="#about" class="nav-link active">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#certs" class="nav-link">Certs</a>
+    <a href="#achievements" class="nav-link">Achievements</a>
+  </div>
+  <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+</nav>
+
+<div class="page">
+
+  <header id="about">
+    <h1>Anuradha Gudagi</h1>
+    <div class="tagline">BCA student building practical AI/ML solutions</div>
+    <div class="contact">
+      <a href="mailto:anuradhagudagi@gmail.com">anuradhagudagi@gmail.com</a>
+      <a href="tel:+918861174561">+91 88611 74561</a>
+      <a href="https://www.linkedin.com/in/anuradha-gudagi-" target="_blank">LinkedIn</a>
+      <a href="https://anuradhagudagi.github.io/Portfolio/" target="_blank">Portfolio</a>
+      <span>Hubli, Karnataka</span>
+    </div>
+  </header>
+
+  <section id="education">
+    <div class="section-label">Education</div>
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title">BCA — KLE BCA PC Jabin Science College, Hubli</span>
+        <span class="entry-meta placeholder">2023 – 2026</span>
+      </div>
+      <div class="entry-sub">CGPA: 7.46 / 10 · Hubli, Karnataka</div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-label">Skills</div>
+    <div class="skills-grid">
+      <span class="skill-chip" data-level="90">Python</span>
+      <span class="skill-chip" data-level="70">Java</span>
+      <span class="skill-chip" data-level="80">SQL / MySQL</span>
+      <span class="skill-chip" data-level="80">FastAPI</span>
+      <span class="skill-chip" data-level="75">spaCy / NLP</span>
+      <span class="skill-chip" data-level="65">PyPDF2</span>
+      <span class="skill-chip" data-level="60">Amazon Bedrock (boto3)</span>
+      <span class="skill-chip" data-level="70">JavaScript</span>
+      <span class="skill-chip" data-level="65">React.js</span>
+      <span class="skill-chip" data-level="65">Node.js</span>
+      <span class="skill-chip" data-level="60">MongoDB</span>
+      <span class="skill-chip" data-level="55">Socket.io</span>
+      <span class="skill-chip" data-level="65">AWS Fundamentals</span>
+      <span class="skill-chip" data-level="70">Azure (AZ-900)</span>
+      <span class="skill-chip" data-level="75">Power BI</span>
+    </div>
+    <p class="hint">Tap a skill to see rough proficiency</p>
+  </section>
+
+  <section id="projects">
+    <div class="section-label">Projects</div>
+
+    <div class="entry card">
+      <div class="entry-head">
+        <span class="entry-title">This Site — AWS Cloud Resume Challenge</span>
+        <span class="entry-meta placeholder">[repo link]</span>
+      </div>
+      <div class="entry-sub">S3 · CloudFront · Route 53 · Lambda · API Gateway · DynamoDB</div>
+      <button class="expand-btn" aria-expanded="false">Show details ▾</button>
+      <ul class="entry-details">
+        <li>Static site served from S3 behind CloudFront, HTTPS via ACM</li>
+        <li>Visitor counter backed by a Python Lambda + DynamoDB, called through API Gateway</li>
+        <li>Infrastructure defined as code, deployed via CI/CD</li>
+      </ul>
+    </div>
+
+    <div class="entry card">
+      <div class="entry-head">
+        <span class="entry-title">Power BI Sales Analysis Dashboard</span>
+        <span class="entry-meta"><a href="https://github.com/anuradhagudagi/power-bi-sales-dashboard" target="_blank">GitHub</a></span>
+      </div>
+      <div class="entry-sub">Power BI · DAX · Data Modeling</div>
+      <button class="expand-btn" aria-expanded="false">Show details ▾</button>
+      <ul class="entry-details">
+        <li class="placeholder">What the dashboard tracks (e.g. revenue trends, top products, regional performance)</li>
+        <li class="placeholder">One insight the dashboard surfaced worth mentioning in an interview</li>
+      </ul>
+    </div>
+
+    <div class="entry card">
+      <div class="entry-head">
+        <span class="entry-title">Portfolio Website</span>
+        <span class="entry-meta placeholder">[link]</span>
+      </div>
+      <div class="entry-sub">HTML · CSS · JavaScript</div>
+      <button class="expand-btn" aria-expanded="false">Show details ▾</button>
+      <ul class="entry-details">
+        <li>Personal portfolio site showcasing projects, skills, and resume</li>
+        <li class="placeholder">Any responsive design or interactive feature worth calling out</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section id="certs">
+    <div class="section-label">Certifications</div>
+    <div class="entry">
+      <span class="entry-title">Microsoft Certified: Azure Fundamentals (AZ-900)</span>
+    </div>
+    <div class="entry">
+      <span class="entry-title">Prompt Engineering</span>
+    </div>
+    <div class="entry">
+      <span class="entry-title">Claude 101 (Anthropic Education)</span>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="section-label">Achievements & Leadership</div>
+    <div class="entry">
+      <span class="entry-title">2nd Prize — Coding Competition</span>
+      <div class="entry-sub">In-house tech fest, 3rd year BCA</div>
+    </div>
+    <div class="entry">
+      <span class="entry-title">House Leader</span>
+      <div class="entry-sub">3rd year, BCA</div>
+    </div>
+    <div class="entry">
+      <span class="entry-title">Class Representative (CR)</span>
+      <div class="entry-sub">12th Standard</div>
+    </div>
+    <div class="entry">
+      <span class="entry-title">Discipline Committee Member</span>
+      <div class="entry-sub">10th Standard</div>
+    </div>
+  </section>
+
+  <footer class="closing-line">
+    Thanks for stopping by — this page itself is proof I can take an idea from HTML to a live AWS deployment.
+  </footer>
+
+</div>
+
+<footer class="visitor-badge">
+  <span class="dot"></span>
+  <span id="visitor-count">visitors: —</span>
+</footer>
+
+<script src="js/script.js?v=2"></script>
+</body>
+</html>
